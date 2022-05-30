@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LikeActivity">
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/h_gline_2_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.92" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="276dp"
+        android:text="즐겨찾기 화면"
+        app:layout_constraintEnd_toStartOf="@+id/v_gline_2_3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/v_gline_2_2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/bottom_home"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/v_gline_2_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/h_gline_2_2" />
+
+    <TextView
+        android:id="@+id/txt_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="홈"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toStartOf="@+id/v_gline_2_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bottom_home" />
+
+    <ImageView
+        android:id="@+id/bottom_like"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_like"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/v_gline_2_2"
+        app:layout_constraintStart_toStartOf="@+id/v_gline_2_1"
+        app:layout_constraintTop_toTopOf="@+id/h_gline_2_2" />
+
+    <TextView
+        android:id="@+id/txt_like"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:text="즐겨찾기"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toStartOf="@+id/v_gline_2_2"
+        app:layout_constraintStart_toStartOf="@+id/v_gline_2_1"
+        app:layout_constraintTop_toBottomOf="@+id/bottom_like" />
+
+    <ImageView
+        android:id="@+id/bottom_search"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_search"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/v_gline_2_3"
+        app:layout_constraintStart_toStartOf="@+id/v_gline_2_2"
+        app:layout_constraintTop_toTopOf="@+id/h_gline_2_2" />
+
+    <TextView
+        android:id="@+id/txt_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="검색"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toStartOf="@+id/v_gline_2_3"
+        app:layout_constraintStart_toStartOf="@+id/v_gline_2_2"
+        app:layout_constraintTop_toBottomOf="@+id/bottom_search" />
+
+    <ImageView
+        android:id="@+id/bottom_card"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_baseline_credit_card_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/v_gline_2_4"
+        app:layout_constraintStart_toStartOf="@+id/v_gline_2_3"
+        app:layout_constraintTop_toTopOf="@+id/h_gline_2_2" />
+
+    <TextView
+        android:id="@+id/txt_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="카드조회"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toStartOf="@+id/v_gline_2_4"
+        app:layout_constraintStart_toStartOf="@+id/v_gline_2_3"
+        app:layout_constraintTop_toBottomOf="@+id/bottom_card" />
+
+
+    <ImageView
+        android:id="@+id/bottom_more"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_more"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/v_gline_2_4"
+        app:layout_constraintTop_toTopOf="@+id/h_gline_2_2" />
+
+    <TextView
+        android:id="@+id/txt_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="더보기"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/v_gline_2_4"
+        app:layout_constraintTop_toBottomOf="@+id/bottom_more" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/v_gline_2_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.2" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/v_gline_2_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.4" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/v_gline_2_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.6" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/v_gline_2_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.8" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
